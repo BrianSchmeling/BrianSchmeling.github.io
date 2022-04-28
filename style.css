@@ -1,0 +1,26 @@
+body {
+    background: dimgray;
+}
+
+header {
+    height: 150px;
+    border-bottom: 2px dotted black;
+}
+
+li.navBar {
+    display: inline-block;
+    margin-left: 10px;
+    float: right;
+}
+
+a {
+    color: lightblue;
+}
+
+h1 {
+    float: left;
+    font-family: cursive;
+    color: whitesmoke;
+    font-size: 5em;
+    margin-top: 0;
+}
