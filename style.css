@@ -1,26 +1,71 @@
 body {
     background: dimgray;
+    color: whitesmoke;
 }
 
 header {
     height: 150px;
     border-bottom: 2px dotted black;
+    overflow: hidden;
+}
+
+ul {
+    margin-top: 125px;
+    margin-right: 25px;
 }
 
 li.navBar {
-    display: inline-block;
+    display: inline;
     margin-left: 10px;
-    float: right;
+    float:right;
 }
 
 a {
     color: lightblue;
 }
 
+a:hover {
+    color:aquamarine;
+}
+
 h1 {
     float: left;
+    display: inline;
     font-family: cursive;
-    color: whitesmoke;
     font-size: 5em;
     margin-top: 0;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 15% 1fr 1fr 15%;
+    grid-template-columns: 15% 1fr 1fr 15%;
+}
+
+h2 {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.centerImg {
+    grid-row: 2;
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.intro {
+    grid-row: 3;
+    grid-column: 2 / span 2;
+    margin-top: 75px;
 }
