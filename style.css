@@ -1,6 +1,15 @@
 body {
     background: dimgray;
     color: whitesmoke;
+    font-family: cursive;
+}
+
+body.contact main{
+    margin-left: 50px;
+}
+
+body.contact p {
+    margin-left: 75px;
 }
 
 header {
@@ -39,7 +48,6 @@ a:hover {
 h1 {
     float: left;
     display: inline;
-    font-family: cursive;
     font-size: 5em;
     margin-top: 0;
 }
@@ -57,8 +65,6 @@ body.home h2 {
     justify-content: center;
     align-items: center;
     margin-right: 25px;
-    font-family: cursive;
-    font-size: 3em;
 }
 
 body.home img {
@@ -73,12 +79,12 @@ body.home .centerImg {
     justify-content: center;
     align-items: center;
 }
+/*div container to center image */
 
 body.home p.intro {
     grid-row: 3;
     grid-column: 2 / span 2;
     margin-top: 75px;
-    font-family: cursive;
     font-size: 20px;
     padding-top: 15px;
 }
@@ -86,18 +92,17 @@ body.home p.intro {
 body.about main {
     padding: 0 15%;
     text-align: center;
-    font-family: cursive;
 }
 
-body.about h2 {
-    font-size: 2em;
+h2 {
+    font-size: 3em;
 }
 
 body.about h3 {
     font-size: 1.5em;
 }
 
-body.about p {
+p {
     margin-top: 30px;
     font-size: 20px;
 }
