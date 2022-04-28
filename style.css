@@ -170,19 +170,3 @@ body.portfolio section {
     opacity: 40%;
     transition: 0.7s;
 }
-
-.image-title {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 200px;
-    height: 50px;
-    color: white;
-    background: black;
-}
-
-.image-title p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
